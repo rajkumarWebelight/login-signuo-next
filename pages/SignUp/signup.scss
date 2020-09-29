@@ -1,0 +1,123 @@
+// Colors
+$greenSeaweed: rgba(2, 128, 144, 1);
+$blueQueen: rgba(69, 105, 144, 1);
+$redFire: rgba(244, 91, 105, 1);
+
+// Fonts
+$fontAsap: "Asap", sans-serif;
+
+.signupForm {
+  text-align: center;
+  padding-top: 10px;
+}
+.firstName {
+  font-family: $fontAsap;
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(238, 234, 234, 0.308);
+  width: 100%;
+  border: 0;
+  padding: 10px 10px;
+  margin: 15px -10px;
+}
+.lastName {
+  font-family: $fontAsap;
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(238, 234, 234, 0.308);
+  width: 100%;
+  border: 0;
+  padding: 10px 10px;
+  margin: 15px -10px;
+}
+.address {
+  font-family: $fontAsap;
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(238, 234, 234, 0.308);
+  width: 100%;
+  border: 0;
+  padding: 10px 10px;
+  margin: 15px -10px;
+}
+.email {
+  margin-left: 98px;
+  font-family: $fontAsap;
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(238, 234, 234, 0.308);
+  width: 100%;
+  border: 0;
+  padding: 10px 10px;
+  margin: 15px -10px;
+}
+.password {
+  font-family: $fontAsap;
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(238, 234, 234, 0.308);
+  width: 100%;
+  border: 0;
+  padding: 10px 10px;
+  margin: 15px -10px;
+}
+.confPass {
+  font-family: $fontAsap;
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(238, 234, 234, 0.308);
+  width: 100%;
+  border: 0;
+  padding: 10px 10px;
+  margin: 15px -10px;
+}
+
+.signCard {
+  overflow: hidden;
+  background-color: white;
+  padding: 40px 30px 30px 30px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 5px 10px 10px rgba($greenSeaweed, 0.2);
+  top: 400px;
+  width: 526px;
+  margin: 10px 0px 20px 625px;
+  text-decoration: none;
+  border: 1px solid #f2f8f9;
+  &:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.678);
+    top: -4px;
+    border: 1px solid #cccccc;
+    top: 396px;
+    background-color: white;
+  }
+}
+
+.signup-btn {
+  font-family: $fontAsap;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 80px;
+  border: 0;
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-left: -5px;
+  border-radius: 5px;
+  background-color: $redFire;
+  &:hover {
+    background-color: darken($redFire, 5%);
+  }
+}
+.error {
+  color: white;
+  background-color: red;
+}
